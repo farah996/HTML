@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html dir="rtl" lang="ar">
+          <head>
+              <meta charset=" utf-8">
+              <title> النماذج </title>
+         </head>
+         <body>
+             <h1> بيانات المستخدم </h1>
+         <form>
+             <label> الأسم </label>
+             <input name="ful-name" placeholder="أكتب الأسم الثلاثي " required>
+             <br>
+             <label> كلمة المرور: </label>
+             <input name="password" type="password" placeholder=" أكتب كلمة المرور " required>
+             <br> 
+             <label for="age"> العمر:</label>
+             <input name="age" type="number" min="18" max="110" placeholder="أدخل عمرك كرقم " id=" age" required>
+             <br>
+
+
+             <input name="agreed" type="checkbox" id="agreed">
+             <label for="agreed"> اطلعت على إتفاقية الاستخدام </label>
+             <br>
+             
+             <button type="submit"> إنشاء حساب</button>
+             <button type="reset"> تفريغ الحقول </button>
+             <br>
+
+             <label> الجنس: </label>
+             <select id="gender" name="gender">
+                <option value="male" ذكر></option>
+                <option value="female" أنثى></option>
+             </select>
+         
+            </form>
+        </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title> الجداول </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        tbody>tr :nth-child(odd) {
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption> الزبائن </caption>
+        <thead>
+            <tr>
+                <th>الأسم</th>
+                <th> العمر</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> أحمد </td>
+                <td> سنة 13</td>
+            </tr>
+            <tr>
+                <td> عامر </td>
+                <td> سنة 33</td>
+            </tr>
+            <tr>
+                <td> خالد </td>
+                <td> سنة23 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> عدد الزبائن 2</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

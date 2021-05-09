@@ -1,0 +1,28 @@
+h1 {
+    color: #ff8f00;
+    font-size: 300%;
+    font-weight: normal;
+}
+
+#first_paragraph {
+    color: green;
+    background-color: lightgrey;
+}
+
+#second_paragraph {
+    color: blue;
+}
+
+
+/* أحمد 
+عدل الأبعاد
+ */
+
+div {
+    font-size: 200%;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}

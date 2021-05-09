@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title>القوائم </title>
+    <style>
+        #shopping_list {
+            list-style: circle;
+        }
+        
+        #shopping_list>li:not(.completed) {
+            color: blue;
+        }
+        
+        .completed {
+            color: gray;
+            text-decoration: line-through;
+            list-style: disc;
+        }
+        
+        h1 {
+            font-family: Tahoma, 'Segoe UI';
+            text-align: center;
+        }
+        
+        #goal_list>li:first-of-type {
+            list-style: url("number-1.png");
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>قائمة المشتريات </h1>
+    <ul id="shopping_list">
+        <li> تفاح </li>
+        <li>جزر </li>
+        <li id="orange">برتقال</li>
+    </ul>
+
+    <form>
+        <label>أضف عنصراً جديداً </label>
+        <input id="newItem">
+        <input type="submit" value=" أضف العنصر ">
+    </form>
+
+    <h1>أهدافي هذا الشهر </h1>
+    <ol>
+        <li>تعلم أساسيات ويب</li>
+        <li>تعلم منصات تطوير</li>
+        <li>إنشاء مشروع أولي</li>
+    </ol>
+</body>
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
+</html>

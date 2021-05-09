@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <title> تعلم JavaScript</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    function f(x) {
+        return (2 * x) + 5;
+    }
+    result = f(5);
+
+    document.write(result);
+    document.write(" مرحباً بالعالم ");
+
+    var name = prompt("ما أسمك؟");
+    document.write(" مرحباً يا " + name);
+    document.write(5 + "6");
+
+    var firstnumber = prompt("أدخل العدد الأول");
+    var secondnumber = prompt("أدخل العدد الثاني  ");
+    firstnumber = Number(firstnumber)
+    secondnumber = Number(secondnumber)
+    var sum = firstnumber + secondnumber;
+    document.write("النتيجة هي: " + sum);
+    var topStudents = [
+        "محمد ",
+        " أحمد ",
+        "محمود "
+    ];
+    var list = document.childElement("ol");
+
+    topStudents.forEach(createlistItem);
+    document.body.appendChild(list);
+
+    function createlistItem(studentname)
+    var listItem = document.createElement("li");
+    listItem.textContent = studentname;
+    list.appendChild(listItem);
+</script>
+
+</html>
